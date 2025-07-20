@@ -1,4 +1,4 @@
-# Ultimate Python Programming Course
+# Ultimate Python Course
 
 Welcome to the **Ultimate Python Course** – a complete, beginner-friendly course designed to take you from absolute basics to building real-world Python projects. Whether you're a student, beginner, or aspiring developer, this course will help you gain solid hands-on experience with Python.
 
