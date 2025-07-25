@@ -96,7 +96,7 @@
 
 # ======= > String Formating <=======
 
-first_name = "Ishfaq"
-last_name = "Khan"
+# first_name = "Ishfaq"
+# last_name = "Khan"
 
-print(f"My first name is {first_name} and my last name is {last_name}")
+# print(f"My first name is {first_name} and my last name is {last_name}")
