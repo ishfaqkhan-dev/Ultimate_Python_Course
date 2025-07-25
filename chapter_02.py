@@ -77,5 +77,26 @@
 # print( a == 12 or b == 15)
 # print(not a == 10)
 
+# ======== > string operations < =======
 
+# x = "PYTHON"
 
+# print(len(x))
+# print(x.upper())
+# print(x.lower())
+# print(x[0])
+# print(x[-1])
+
+# ===== > String Concantenation < =========
+
+# first_name = "Ishfaq"
+# last_name = "Khan"
+
+# print(first_name + " " + last_name)
+
+# ======= > String Formating <=======
+
+first_name = "Ishfaq"
+last_name = "Khan"
+
+print(f"My first name is {first_name} and my last name is {last_name}")
