@@ -72,36 +72,41 @@
 # print("Difference: ", set1.difference(set2))
 
 
-# ======== dictionary < ============
+# ========== > Dictionary < ===============
 
 # Student_Data = {
 #     "name" : "Ishfaq",
-#     "age" : 20,
-#     "Total_marks" : 80,
+#     "age" : 25,
 #     "country" : "Pakistan"
 # }
 
-# print(Student_Data["name"])
+# # print(Student_Data["name"])
 
-# Student_Data["age"] = 25
+# Student_Data["age"] = 20
 # Student_Data["city"] = "Trag"
 
-# print(Student_Data)
-
-# print(Student_Data.keys())
-# print(Student_Data.values())
+# # print(Student_Data)
+# # print(Student_Data.keys())
+# # print(Student_Data.values())
 # print(Student_Data.items())
+
+# list_dict_keys = list(Student_Data.keys())
+# print(list_dict_keys)
+
+# tuple_dict_keys = tuple(Student_Data.keys())
+# print(tuple_dict_keys)
 
 # Student_Data.clear()
 # print(Student_Data)
 
-# =========== > Nested Dictionary < ===========
+# =========== > Nested Dictionary < =========
 
-# Students = {
-#     "Student1" : {"name": "Ali", "age": 20},
-#     "Student2" : {"name": "Ishfaq", "age": 25}
-# }
+Students = {
+    "Student1_data" : {"name" : "ishfaq", "age" : 20},
+    "Student2_data" : {"name" : "ali", "age" : 25}
+}
 
-# Students["Student1"]["name"] = "Hammad"
+Students["Student1_data"]["name"] = "Hammad"
 
-# print(Students["Student1"]["name"])
+print(Students["Student1_data"]["name"])
+print(Students["Student1_data"].keys())
