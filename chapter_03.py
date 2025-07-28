@@ -45,17 +45,17 @@ age = 17
 
 # ============ > Match Case Statement < =============
 
-a = 10
-b = 20
+# a = 10
+# b = 20
 
-c = a + b 
+# c = a + b 
 
-match c:
-    case 10:
-        print("answer is 10")
-    case 20:
-        print("answer is 20")
-    case 30:
-        print("answer is 30")
-    case _:
-        print("answer not match")
+# match c:
+#     case 10:
+#         print("answer is 10")
+#     case 20:
+#         print("answer is 20")
+#     case 30:
+#         print("answer is 30")
+#     case _:
+#         print("answer not match")
