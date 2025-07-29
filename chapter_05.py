@@ -101,12 +101,12 @@
 
 # =========== > Nested Dictionary < =========
 
-Students = {
-    "Student1_data" : {"name" : "ishfaq", "age" : 20},
-    "Student2_data" : {"name" : "ali", "age" : 25}
-}
+# Students = {
+#     "Student1_data" : {"name" : "ishfaq", "age" : 20},
+#     "Student2_data" : {"name" : "ali", "age" : 25}
+# }
 
-Students["Student1_data"]["name"] = "Hammad"
+# Students["Student1_data"]["name"] = "Hammad"
 
-print(Students["Student1_data"]["name"])
-print(Students["Student1_data"].keys())
+# print(Students["Student1_data"]["name"])
+# print(Students["Student1_data"].keys())
